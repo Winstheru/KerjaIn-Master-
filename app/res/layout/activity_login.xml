@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#74caf2"
+    android:background="@drawable/gradient"
     tools:context=".Login">
 
     <ImageView
@@ -54,7 +54,7 @@
         android:text="Masuk"
         android:textColor="#FFFFFF"
         android:background="@drawable/roundedbutton"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="32dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -62,6 +62,7 @@
         android:text="Lupa kata sandi?"
         android:textSize="18sp"
         android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
         android:layout_marginTop="8dp"/>
 
     <TextView
@@ -70,6 +71,7 @@
         android:text="Belum daftar?"
         android:textSize="18sp"
         android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
         android:layout_marginTop="64dp"/>
 
     <Button
